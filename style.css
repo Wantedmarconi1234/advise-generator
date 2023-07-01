@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-family: 'Manrope', sans-serif;
+    font-size: 28px;
+    color: #cee3e9;
+    background-color: #1f2632;
+}
+
+.main-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 65%;
+    height: 80%;
+    padding: 30px;
+    background-color: #323a49;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.advice-number, 
+.advice-content-container,
+.horizontal-break {
+    margin-bottom: 40px;
+}
+
+.advice-number {
+    font-size: 20px;
+    color: #52ffa8;
+    letter-spacing: 3px;
+}
+
+
+.request-key {
+    position: absolute;
+    top: 90%;
+    width: 65px;
+    height: 65px;
+    border-radius: 5rem;
+    padding: 15px;
+    background-color: #52ffa8;
+    cursor: pointer;
+}
+
+
